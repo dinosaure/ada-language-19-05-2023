@@ -7,6 +7,7 @@ A simple language to show how to implement one.
 You need to install OCaml (& `opam`):
 ```shell-session
 $ bash -c "sh <(curl -fsSL https://raw.githubusercontent.com/ocaml/opam/master/shell/install.sh)"
+$ opam init
 $ opam switch create 4.14.1
 $ opam install dune fmt bos rresult
 $ cd ada-language-19-05-2023
