@@ -1,0 +1,6 @@
+(executable
+ (name ada)
+ (libraries rresult fmt bos))
+
+(ocamllex lexer)
+(menhir (modules parser))
